@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px;
+            /* border: 2px solid red; */
+            margin: 23px;
+            background-color: brown;
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur-raduis  color; */
+            /* box-shadow: offset-x offset-y blur-raduis spread-raduis  color; */
+
+            /* box-shadow: 7px 7px green; */
+            /* box-shadow: 7px 7px 13px green; */
+            /* box-shadow: 7px 7px 13px 18px green; */
+            /* box-shadow: 7px 7px 13px 18px rgb(red, green, blue 0.5); */
+
+            /* box-shadow: inset 84px 19px red; */
+
+            box-shadow: 15px 15px red, 28px 28px green;
+        }
+
+            .card h2{
+                text-shadow: 8px 11px white;
+            }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card11">
+            <h2>This is c++ tutorial </h2>
+            <p>Lorem ipsum dolor sit, amet co
+                pellendus deleniti reprehenderit fugit autem error dignissimo
+                s quos officia hic, harum quibusdam quod eos vel dolor quisquam minu
+                s! Consequatur, molestias.</p>
+        </div>
+
+        <div class="card" id="card12">
+            <h2>card2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio susci
+                it repudiandae, aut perferendis nihil eius i
+                 minima ab illum. Voluptates tempora expedita cupiditate provident earum sint 
+                 dolores aspernatur, esse hic.</p>
+        </div>
+
+        <div class="card" id="card13">
+            <h2>caed3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique nem
+                o eos non quam. Incidunt eligendi modi repudiandae, assumenda nostrum magni. Omnis 
+                eos quidem repellendus asperiores. Sequi ut beatae sed consectetur repellendus excepturi
+                 placeat rem?</p>
+        </div>
+        
+    </div>
+</body>
+
+</html>
